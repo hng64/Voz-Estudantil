@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voz Estudantil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Voz Estudantil</h1>
+        <p>Sua voz transforma nossa escola!</p>
+    </header>
+    <main>
+        <section class="boas-vindas">
+            <h2>Bem-vindo ao Voz Estudantil!</h2>
+            <p>
+                Voz Estudantil é um projeto de Sugestões à escola, todas publicações são totalmente anonimas
+            </p>
+        </section>
+
+        <section class="formulario">
+            <h2>Sugestão: </h2>
+
+            <form id="formulario">
+                <label for="tipo">Tipo de publicação:</label>
+
+                <select id="tipo" required>
+                    <option value="">Escolha uma opção</option>
+                    <option value="Reclamação">Reclamação</option>
+                    <option value="Sugestão">Sugestão</option>
+                </select>
+
+                <label for="titulo">Título:</label>
+                <input
+                    type="text"
+                    id="titulo"
+                    placeholder="Ex: Problemas nos ventiladores"
+                    maxlength="80"
+                    required
+                >
+
+                <label for="descricao">Descreva</label>
+                <textarea
+                    id="descricao"
+                    placeholder="Escreva aqui..."
+                    maxlength="1000"
+                    required
+                ></textarea>
+
+                <button type="submit">Publicar anonimamente.</button>
+            </form>
+
+            <p class="aviso">
+                Sua identidade não será exibida nas publicações.
+            </p>
+        </section>
+
+        <section class="publicacoes">
+            <h2>Publicações</h2>
+            <div id="lista-publicacoes"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Voz Estudantil, Juntos podemos melhorar nossa escola.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
