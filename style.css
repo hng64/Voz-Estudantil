@@ -1,0 +1,136 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #FFF5FA;
+    color: #49344F;
+}
+
+header {
+    background: linear-gradient(135deg, #E9B5E8, #F8CDE5);
+    color: #743B70;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+main {
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background: white;
+    padding: 25px;
+    border-radius: 18px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 15px #EBCDE5;
+}
+
+h2 {
+    color: #C05AA5;
+    margin-bottom: 15px;
+}
+
+.boas-vindas p {
+    line-height: 1.7;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+label {
+    font-weight: bold;
+    color: #81517F;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #E8B8DD;
+    border-radius: 10px;
+    font-size: 15px;
+    background: #FFFAFD;
+    color: #49344F;
+}
+
+textarea {
+    min-height: 130px;
+    resize: vertical;
+}
+
+button {
+    background: #D77BC1;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #B957A5;
+    transform: translateY(-2px);
+}
+
+.aviso {
+    font-size: 13px;
+    color: #987D99;
+    margin-top: 15px;
+}
+
+.publicacao {
+    border: 1px solid #F0D6EB;
+    border-radius: 12px;
+    padding: 18px;
+    margin-top: 15px;
+    background: #FFFAFD;
+}
+
+.publicacao h3 {
+    color: #A64C94;
+    margin: 10px 0;
+}
+
+.publicacao p {
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+}
+
+.categoria {
+    display: inline-block;
+    background: #F8DDF0;
+    color: #A04489;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.apoiar {
+    margin-top: 12px;
+    padding: 9px 15px;
+    font-size: 14px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #A276A0;
+}
