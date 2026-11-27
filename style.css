@@ -106,7 +106,7 @@ button:hover {
 }
 
 .publicacao h3 {
-    color: #A64C94;
+    color: #278752;
     margin: 10px 0;
 }
 
@@ -117,8 +117,8 @@ button:hover {
 
 .categoria {
     display: inline-block;
-    background: #F8DDF0;
-    color: #A04489;
+    background: #D3F5D3;
+    color: #278752;
     padding: 5px 10px;
     border-radius: 20px;
     font-size: 12px;
